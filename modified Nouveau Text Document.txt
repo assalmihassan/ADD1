@@ -1,0 +1,32 @@
+1.	Oppen my project folder on Visual Studion
+
+2.	Download the latest changes from GitHub
+    git pull origin main
+
+3.	Modify locally my files 
+Edit, create or delete files as needed … this happens locally
+
+4.	Check for local changes 
+When I am done editing locally, I check local changes
+    git status
+This shows me what has changed 
+
+5.	Stage the files to commits 
+    Git add .
+Or 
+    Git add modified_file_name
+Adds all modified files to the staging area (so Git knows I want to save them).
+
+6.	Commit the Changes
+    git commit -m "Describe_what_I_changed"
+Takes a snapshot of I change — it's saved locally (not yet on GitHub).
+
+7.	Push to GitHub
+    git push origin main
+
+Sends my local commits to the remote repo on GitHub.
+
+
+1. Simulate the charging/discharging kinetics of a graphene anode.
+2. 
+- I have to consider how many Li ions hit the surface per second, ==> This would be affected by the applied voltage (applied electric field)
