@@ -356,7 +356,7 @@ initial_position = np.array(Li_positions)
 # print(f"Li_positions: {Li_positions}")
 
 clock = 0.0; delta_t = 0
-steps = 2000
+steps = 1
 for step in range(steps):
     print(f"Step {step + 1}:")
     
